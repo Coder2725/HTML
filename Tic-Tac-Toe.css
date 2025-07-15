@@ -50,13 +50,13 @@ body {
 
 }
 #Winner p {
-    font-size :3cap;
+    font-size :4vmin;
     justify-content: center;
 }
 
 #Winner Button {
-    width : 15cap;
-    height: 4cap;
+    width : 27vmin;
+    height: 7vmin;
     font-size: 1.75cap;
     border-radius: 2cap;
     margin-top: 1cap;
