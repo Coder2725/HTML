@@ -1,0 +1,70 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    background-color : #16697A;
+    text-align :center;
+}
+
+.Heading {
+    color : #FFA62B;
+    font-size: 5vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke: 2.5px black;
+}
+
+.Container  {
+    height :70vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    height : 60vmin;
+    width  : 60vmin;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap : 1.2vmin;
+}
+
+.Button {
+    height : 18vmin;
+    width  : 18vmin;
+    background-color : white;
+    border-radius: 5%;
+    border: none;
+    box-shadow : 0 0 1rem rgba(0, 0, 0, 0.918);
+    font-size: 11vmin;
+    color : #EDE7E3;
+    -webkit-text-stroke: 2.5px black;
+    background-color: #2549509d;
+}
+
+.Winner {
+    height : auto;
+
+}
+#Winner p {
+    font-size :3cap;
+    justify-content: center;
+}
+
+#Winner Button {
+    width : 15cap;
+    height: 4cap;
+    font-size: 1.75cap;
+    border-radius: 2cap;
+    margin-top: 1cap;
+    background-color: rgba(0, 0, 0, 0.692);
+    color : #FFA62B;
+    font-size: 2.2cap;
+}
+
+.hide {
+    display: none;
+}
